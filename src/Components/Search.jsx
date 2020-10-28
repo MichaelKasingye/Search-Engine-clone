@@ -34,7 +34,7 @@ function Search({ hideButtons = false }) {
              {!hideButtons ?(
                  <div className="search_buttons">
                  <Button type='submit' onClick={search} variant="outlined">Noonya Search</Button>
-                 <Button variant="outlined"> <a href="">Git Hub</a> </Button>
+                 <Button variant="outlined"> <a href="https://github.com/MichaelKasingye/Search-Engine-clone">Git Hub Repo</a> </Button>
              </div>
              ):(
                 <div className="search_buttonsHidden">
